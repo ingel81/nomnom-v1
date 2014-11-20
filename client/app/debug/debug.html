@@ -1,0 +1,38 @@
+<div class="row">
+	<div class="col-md-3">	
+		<h3>Manual motor control</h3>
+		<div class="input-group">
+		  <span class="input-group-btn">
+			<button class="btn btn-primary" type="button">
+				<span class="glyphicon glyphicon-arrow-left"></span> CCW
+			</button>
+		  </span>
+		  <input class="form-control" name="steps" type="int" ng-model="motorControl.steps" 
+				placeholder="Steps" />
+		 <span class="input-group-btn">
+			<button class="btn btn-primary" type="button">
+				CW <span class="glyphicon glyphicon-arrow-right"></span>
+			</button>
+		  </span>
+		</div><!-- /input-group -->	
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12">
+		
+		<h3>LogFile</h3>
+		
+		<button class="btn btn-default" ng-click="showHideLog()">
+			<span ng-if="showLog">Hide log</span>
+			<span ng-if="!showLog">Show log</span>
+		</button>
+		
+		<div class="row" ng-if="showLog">
+			<div class="col-md-12">
+				<pre>{{logContent}}</pre>
+			</div>
+		</div>
+
+	</div>
+</div>
