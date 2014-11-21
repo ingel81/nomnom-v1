@@ -5871,3 +5871,17 @@
 
 2014-11-20T23:47:42.696Z: exec error: Error: Command failed: /bin/sh: 1: fswebcam: not found
 
+2014-11-21T00:13:19.440Z: try to take picture now
+2014-11-21T00:13:19.443Z: executing external process: fswebcam dist//home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-21T00:13:19.477Z: stdout: 
+2014-11-21T00:13:19.477Z: stderr: /bin/sh: 1: fswebcam: not found
+
+2014-11-21T00:13:19.478Z: exec error: Error: Command failed: /bin/sh: 1: fswebcam: not found
+
+2014-11-21T00:19:40.323Z: try to take picture now
+2014-11-21T00:19:40.326Z: executing external process: fswebcam dist//home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-21T00:19:40.354Z: stdout: 
+2014-11-21T00:19:40.354Z: stderr: /bin/sh: 1: fswebcam: not found
+
+2014-11-21T00:19:40.354Z: exec error: Error: Command failed: /bin/sh: 1: fswebcam: not found
+
