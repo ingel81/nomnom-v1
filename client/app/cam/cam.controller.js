@@ -8,7 +8,7 @@ angular.module('nomnomV1App').controller('CamCtrl', function (apiService, $scope
 	
 	$scope.refresh = function(){
 		$scope.imgSrc = apiService.apiBase() +  'cam/latest?rnd=' + $scope.getRandom();		
-		$timeout($scope.refresh, 10000);
+		$timeout($scope.refresh, 2000);
 	};
 	
 	$scope.refresh();

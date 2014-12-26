@@ -1,0 +1,529 @@
+2014-11-24T18:44:50.237Z: try to take picture now
+2014-11-24T18:44:50.239Z: executing external process: fswebcam dist//home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T18:44:50.264Z: stdout: 
+2014-11-24T18:44:50.264Z: stderr: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:44:50.265Z: exec error: Error: Command failed: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:45:00.265Z: try to take picture now
+2014-11-24T18:45:00.265Z: executing external process: fswebcam dist//home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T18:45:00.277Z: stderr: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:45:00.277Z: stdout: 
+2014-11-24T18:45:00.278Z: exec error: Error: Command failed: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:45:14.646Z: try to take picture now
+2014-11-24T18:45:14.647Z: executing external process: fswebcam dist//home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T18:45:14.735Z: stdout: 
+2014-11-24T18:45:14.735Z: stderr: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:45:14.735Z: exec error: Error: Command failed: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:45:25.064Z: try to take picture now
+2014-11-24T18:45:25.064Z: executing external process: fswebcam dist//home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T18:45:25.086Z: stdout: 
+2014-11-24T18:45:25.086Z: stderr: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:45:25.086Z: exec error: Error: Command failed: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:45:36.662Z: try to take picture now
+2014-11-24T18:45:36.662Z: executing external process: fswebcam dist//home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T18:45:36.691Z: stdout: 
+2014-11-24T18:45:36.692Z: stderr: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T18:45:36.692Z: exec error: Error: Command failed: /bin/sh: 1: fswebcam: not found
+
+2014-11-24T20:13:19.101Z: try to take picture now
+2014-11-24T20:13:19.102Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:13:31.182Z: try to take picture now
+2014-11-24T20:13:31.182Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:15:48.725Z: try to take picture now
+2014-11-24T20:15:48.726Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:16:00.786Z: try to take picture now
+2014-11-24T20:16:00.787Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:16:55.015Z: try to take picture now
+2014-11-24T20:16:55.016Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:17:07.349Z: try to take picture now
+2014-11-24T20:17:07.349Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:55:15.510Z: try to take picture now
+2014-11-24T20:55:15.511Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:55:27.446Z: try to take picture now
+2014-11-24T20:55:27.446Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:57:52.672Z: try to take picture now
+2014-11-24T20:57:52.674Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:58:02.697Z: try to take picture now
+2014-11-24T20:58:02.697Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:58:12.718Z: try to take picture now
+2014-11-24T20:58:12.719Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:58:15.552Z: stdout: 
+2014-11-24T20:58:15.552Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:58:15.553Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:58:22.736Z: try to take picture now
+2014-11-24T20:58:22.736Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:58:22.754Z: stdout: 
+2014-11-24T20:58:22.754Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:58:22.754Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:58:48.035Z: try to take picture now
+2014-11-24T20:58:48.037Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:58:48.059Z: stdout: 
+2014-11-24T20:58:48.059Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:58:48.060Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:58:58.062Z: try to take picture now
+2014-11-24T20:58:58.062Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:58:58.082Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:58:58.082Z: stdout: 
+2014-11-24T20:58:58.083Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:59:08.083Z: try to take picture now
+2014-11-24T20:59:08.083Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:59:08.101Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:59:08.101Z: stdout: 
+2014-11-24T20:59:08.101Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:59:18.102Z: try to take picture now
+2014-11-24T20:59:18.102Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:59:18.122Z: stdout: 
+2014-11-24T20:59:18.123Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:59:18.123Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:59:28.122Z: try to take picture now
+2014-11-24T20:59:28.122Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:59:28.139Z: stdout: 
+2014-11-24T20:59:28.139Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:59:28.139Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:59:38.143Z: try to take picture now
+2014-11-24T20:59:38.143Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:59:38.159Z: stdout: 
+2014-11-24T20:59:38.159Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:59:38.159Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:59:48.165Z: try to take picture now
+2014-11-24T20:59:48.165Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:59:48.183Z: stdout: 
+2014-11-24T20:59:48.183Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:59:48.183Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T20:59:58.184Z: try to take picture now
+2014-11-24T20:59:58.185Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T20:59:58.202Z: stdout: 
+2014-11-24T20:59:58.202Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T20:59:58.202Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:00:08.205Z: try to take picture now
+2014-11-24T21:00:08.205Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:00:08.225Z: stdout: 
+2014-11-24T21:00:08.225Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:00:08.226Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:00:18.226Z: try to take picture now
+2014-11-24T21:00:18.226Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:00:18.247Z: stdout: 
+2014-11-24T21:00:18.247Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:00:18.247Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:00:28.247Z: try to take picture now
+2014-11-24T21:00:28.247Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:00:28.263Z: stdout: 
+2014-11-24T21:00:28.263Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:00:28.263Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:00:38.266Z: try to take picture now
+2014-11-24T21:00:38.266Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:00:38.284Z: stdout: 
+2014-11-24T21:00:38.285Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:00:38.285Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:00:48.292Z: try to take picture now
+2014-11-24T21:00:48.292Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:00:48.311Z: stdout: 
+2014-11-24T21:00:48.311Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:00:48.312Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:00:58.312Z: try to take picture now
+2014-11-24T21:00:58.312Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:00:58.329Z: stdout: 
+2014-11-24T21:00:58.329Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:00:58.329Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:01:08.337Z: try to take picture now
+2014-11-24T21:01:08.337Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:01:08.355Z: stdout: 
+2014-11-24T21:01:08.355Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:01:08.355Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:01:18.356Z: try to take picture now
+2014-11-24T21:01:18.356Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:01:18.372Z: stdout: 
+2014-11-24T21:01:18.372Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:01:18.372Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:01:28.377Z: try to take picture now
+2014-11-24T21:01:28.377Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:01:28.396Z: stdout: 
+2014-11-24T21:01:28.396Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:01:28.396Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:01:38.398Z: try to take picture now
+2014-11-24T21:01:38.398Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:01:38.421Z: stdout: 
+2014-11-24T21:01:38.421Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:01:38.421Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:01:48.426Z: try to take picture now
+2014-11-24T21:01:48.426Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:01:48.444Z: stdout: 
+2014-11-24T21:01:48.444Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:01:48.445Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:01:58.444Z: try to take picture now
+2014-11-24T21:01:58.444Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:01:58.461Z: stdout: 
+2014-11-24T21:01:58.461Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:01:58.461Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:02:08.463Z: try to take picture now
+2014-11-24T21:02:08.464Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:02:08.481Z: stdout: 
+2014-11-24T21:02:08.481Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:02:08.481Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:02:18.483Z: try to take picture now
+2014-11-24T21:02:18.483Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:02:18.500Z: stdout: 
+2014-11-24T21:02:18.501Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:02:18.501Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:02:28.501Z: try to take picture now
+2014-11-24T21:02:28.501Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:02:28.520Z: stdout: 
+2014-11-24T21:02:28.520Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:02:28.520Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:02:38.520Z: try to take picture now
+2014-11-24T21:02:38.520Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:02:38.535Z: stdout: 
+2014-11-24T21:02:38.535Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:02:38.535Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:02:48.545Z: try to take picture now
+2014-11-24T21:02:48.545Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:02:48.562Z: stdout: 
+2014-11-24T21:02:48.562Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:02:48.562Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:02:58.564Z: try to take picture now
+2014-11-24T21:02:58.564Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:02:58.582Z: stdout: 
+2014-11-24T21:02:58.582Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:02:58.582Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:03:08.583Z: try to take picture now
+2014-11-24T21:03:08.584Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:03:08.598Z: stdout: 
+2014-11-24T21:03:08.598Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:03:08.598Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:03:18.606Z: try to take picture now
+2014-11-24T21:03:18.606Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:03:18.622Z: stdout: 
+2014-11-24T21:03:18.622Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:03:18.623Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:03:28.628Z: try to take picture now
+2014-11-24T21:03:28.628Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:03:28.647Z: stdout: 
+2014-11-24T21:03:28.647Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:03:28.647Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:03:38.648Z: try to take picture now
+2014-11-24T21:03:38.649Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:03:38.666Z: stdout: 
+2014-11-24T21:03:38.666Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:03:38.666Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:03:48.678Z: try to take picture now
+2014-11-24T21:03:48.678Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:03:48.694Z: stdout: 
+2014-11-24T21:03:48.694Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:03:48.694Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:03:58.698Z: try to take picture now
+2014-11-24T21:03:58.698Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:03:58.718Z: stdout: 
+2014-11-24T21:03:58.718Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:03:58.718Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:04:08.716Z: try to take picture now
+2014-11-24T21:04:08.716Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:04:08.734Z: stdout: 
+2014-11-24T21:04:08.734Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:04:08.734Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:04:18.737Z: try to take picture now
+2014-11-24T21:04:18.737Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:04:18.754Z: stdout: 
+2014-11-24T21:04:18.754Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:04:18.754Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:04:28.759Z: try to take picture now
+2014-11-24T21:04:28.759Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:04:28.776Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:04:28.776Z: stdout: 
+2014-11-24T21:04:28.776Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:05:30.101Z: try to take picture now
+2014-11-24T21:05:30.104Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:05:30.129Z: stdout: 
+2014-11-24T21:05:30.129Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:05:30.129Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:06:15.238Z: try to take picture now
+2014-11-24T21:06:15.241Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:06:15.269Z: stdout: 
+2014-11-24T21:06:15.269Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:06:15.270Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:06:25.265Z: try to take picture now
+2014-11-24T21:06:25.265Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:06:25.283Z: stdout: 
+2014-11-24T21:06:25.283Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:06:25.283Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:07:33.664Z: try to take picture now
+2014-11-24T21:07:33.667Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:07:33.689Z: stdout: 
+2014-11-24T21:07:33.689Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:07:33.689Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:07:43.695Z: try to take picture now
+2014-11-24T21:07:43.695Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:07:43.713Z: stdout: 
+2014-11-24T21:07:43.714Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:07:43.714Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:07:46.930Z: executing external process: sudo /home/pi/pwmtest/wiringPi/examples/stepperCtrl -cw -s 220
+2014-11-24T21:07:46.943Z: stdout: 
+2014-11-24T21:07:46.944Z: stderr: sudo: /home/pi/pwmtest/wiringPi/examples/stepperCtrl: command not found
+
+2014-11-24T21:07:46.944Z: exec error: Error: Command failed: sudo: /home/pi/pwmtest/wiringPi/examples/stepperCtrl: command not found
+
+2014-11-24T21:07:53.717Z: try to take picture now
+2014-11-24T21:07:53.717Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:07:53.734Z: stdout: 
+2014-11-24T21:07:53.734Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:07:53.734Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:08:03.737Z: try to take picture now
+2014-11-24T21:08:03.737Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:08:03.755Z: stdout: 
+2014-11-24T21:08:03.755Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:08:03.755Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:08:13.757Z: try to take picture now
+2014-11-24T21:08:13.757Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:08:13.777Z: stdout: 
+2014-11-24T21:08:13.777Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:08:13.778Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:08:55.420Z: executing external process: sudo /home/pi/pwmtest/wiringPi/examples/stepperCtrl
+2014-11-24T21:08:55.450Z: stdout: 
+2014-11-24T21:08:55.450Z: stderr: sudo: /home/pi/pwmtest/wiringPi/examples/stepperCtrl: command not found
+
+2014-11-24T21:08:55.450Z: exec error: Error: Command failed: sudo: /home/pi/pwmtest/wiringPi/examples/stepperCtrl: command not found
+
+2014-11-24T21:08:57.761Z: try to take picture now
+2014-11-24T21:08:57.761Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:08:57.857Z: stdout: 
+2014-11-24T21:08:57.857Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:08:57.857Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:09:09.869Z: try to take picture now
+2014-11-24T21:09:09.870Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:09:09.928Z: stdout: 
+2014-11-24T21:09:09.928Z: stderr: sudo: fswebcam: command not found
+
+2014-11-24T21:09:09.928Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-11-24T21:51:26.531Z: executing external process: sudo /home/pi/pwmtest/wiringPi/examples/stepperCtrl
+2014-11-24T21:51:28.808Z: try to take picture now
+2014-11-24T21:51:28.808Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:51:31.000Z: try to take picture now
+2014-11-24T21:51:31.000Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:51:33.026Z: try to take picture now
+2014-11-24T21:51:33.026Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:51:35.049Z: try to take picture now
+2014-11-24T21:51:35.049Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:51:41.032Z: try to take picture now
+2014-11-24T21:51:41.032Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:51:43.183Z: try to take picture now
+2014-11-24T21:51:43.183Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-11-24T21:51:45.508Z: try to take picture now
+2014-11-24T21:51:45.508Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:39.022Z: try to take picture now
+2014-12-26T15:54:39.025Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:41.040Z: try to take picture now
+2014-12-26T15:54:41.040Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:43.050Z: try to take picture now
+2014-12-26T15:54:43.050Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:45.059Z: try to take picture now
+2014-12-26T15:54:45.059Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:47.068Z: try to take picture now
+2014-12-26T15:54:47.068Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:49.078Z: try to take picture now
+2014-12-26T15:54:49.078Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:51.091Z: try to take picture now
+2014-12-26T15:54:51.092Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:53.100Z: try to take picture now
+2014-12-26T15:54:53.101Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:55.108Z: try to take picture now
+2014-12-26T15:54:55.110Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:54:57.121Z: try to take picture now
+2014-12-26T15:54:57.122Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:11.181Z: try to take picture now
+2014-12-26T15:55:11.184Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:11.212Z: stdout: 
+2014-12-26T15:55:11.212Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:11.213Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:13.200Z: try to take picture now
+2014-12-26T15:55:13.201Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:13.219Z: stdout: 
+2014-12-26T15:55:13.219Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:13.219Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:15.211Z: try to take picture now
+2014-12-26T15:55:15.211Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:15.226Z: stdout: 
+2014-12-26T15:55:15.226Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:15.226Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:17.220Z: try to take picture now
+2014-12-26T15:55:17.220Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:17.233Z: stdout: 
+2014-12-26T15:55:17.233Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:17.235Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:19.228Z: try to take picture now
+2014-12-26T15:55:19.228Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:19.244Z: stdout: 
+2014-12-26T15:55:19.244Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:19.244Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:21.237Z: try to take picture now
+2014-12-26T15:55:21.237Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:21.252Z: stdout: 
+2014-12-26T15:55:21.252Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:21.252Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:23.253Z: try to take picture now
+2014-12-26T15:55:23.253Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:23.269Z: stdout: 
+2014-12-26T15:55:23.269Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:23.269Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:25.262Z: try to take picture now
+2014-12-26T15:55:25.262Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:25.280Z: stdout: 
+2014-12-26T15:55:25.280Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:25.280Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:27.270Z: try to take picture now
+2014-12-26T15:55:27.270Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:27.286Z: stdout: 
+2014-12-26T15:55:27.286Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:27.286Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:29.301Z: try to take picture now
+2014-12-26T15:55:29.301Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:29.320Z: stdout: 
+2014-12-26T15:55:29.320Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:29.320Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:31.312Z: try to take picture now
+2014-12-26T15:55:31.312Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:31.330Z: stdout: 
+2014-12-26T15:55:31.330Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:31.330Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:33.322Z: try to take picture now
+2014-12-26T15:55:33.322Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:33.343Z: stdout: 
+2014-12-26T15:55:33.343Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:33.343Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:35.339Z: try to take picture now
+2014-12-26T15:55:35.339Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:35.358Z: stdout: 
+2014-12-26T15:55:35.358Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:35.359Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+
+2014-12-26T15:55:37.351Z: try to take picture now
+2014-12-26T15:55:37.351Z: executing external process: sudo fswebcam -r 640x480 --info NomNomv1 /home/joerg/node/nomnom-v1/server/nom/latest.jpg
+2014-12-26T15:55:37.367Z: stdout: 
+2014-12-26T15:55:37.367Z: stderr: sudo: fswebcam: command not found
+
+2014-12-26T15:55:37.367Z: exec error: Error: Command failed: sudo: fswebcam: command not found
+

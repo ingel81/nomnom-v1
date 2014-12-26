@@ -3,14 +3,14 @@
 		<h3>Manual motor control</h3>
 		<div class="input-group">
 		  <span class="input-group-btn">
-			<button class="btn btn-primary" type="button">
+			<button class="btn btn-primary" type="button" ng-click="doTheDrive('ccw')">
 				<span class="glyphicon glyphicon-arrow-left"></span> CCW
 			</button>
 		  </span>
 		  <input class="form-control" name="steps" type="int" ng-model="motorControl.steps" 
 				placeholder="Steps" />
 		 <span class="input-group-btn">
-			<button class="btn btn-primary" type="button">
+			<button class="btn btn-primary" type="button" ng-click="doTheDrive('cw')">
 				CW <span class="glyphicon glyphicon-arrow-right"></span>
 			</button>
 		  </span>

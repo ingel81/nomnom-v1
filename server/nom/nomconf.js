@@ -3,8 +3,9 @@
 module.exports = {
 	logFile : __dirname + '/nomnom.log',
 	livePictureName : __dirname + '/latest.jpg',
-	livePictureIntervalMS : 10000,
+	livePictureIntervalMS : 2000,
+	stepperCtrlBinary: '/home/pi/pwmtest/wiringPi/examples/stepperCtrl',
 	httpPort : 80,
-	mainTickInterval : 1000,
+	mainTickInterval : 500,
 	webDir : 'dist'	
 };

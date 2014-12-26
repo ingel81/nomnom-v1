@@ -6,7 +6,14 @@ angular.module('nomnomV1App')
 	$scope.showLog = false;
 	
 	$scope.motorControl = {
-		steps: 1	
+		steps: 1,
+		direction: ''
+	};
+	
+	$scope.doTheDrive = function(direction){		
+		$scope.motorControl.direction = direction;
+		apiService.motorDrive($scope.motorControl).then(function(){				
+		});		
 	};
 	
 	

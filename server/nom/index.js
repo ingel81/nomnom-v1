@@ -33,14 +33,59 @@ var execCommand = function(command){
 	} ).unref();
 }
 
-var takePicture = function(){
-	var command = 'fswebcam ' + config.webDir + '/' + config.livePictureName;	
-	execCommand(command);	
-}
+var getCmdOutput = function(command, cb){
+	proc.exec(command,function (error, stdout, stderr) {		
+		
+		if(cb){
+			cb(stdout);
+		}		
+	});	
+};
 
 //private module runtime vars
 var lastPictureTS = 0;
+var resetCount = 0;
 var isRunning = false;
+
+//reset the cam
+var resetUSB = function(){
+	getCmdOutput('lsusb | grep "QuickCam E 3500" | cut -f1 -d":" | cut -f4 -d" "', function(usbID){	
+		if(usbID){
+			var command = 'sudo usbreset /dev/bus/usb/001/' + usbID;	
+			execCommand(command);				
+		}
+	});
+}
+
+var takePicture = function(){
+	var command = 'sudo fswebcam -r 640x480 --info NomNomv1 ' + config.livePictureName;	
+	execCommand(command);
+
+	resetCount++;
+	if(resetCount > 5)
+	{
+		resetUSB();
+		resetCount = 0;		
+	}	
+}
+
+var drive = function(direction, steps, delay, cb){
+
+	var command = 'sudo ' + config.stepperCtrlBinary;
+	
+	if(direction === 'cw'){
+		command += ' -cw';
+	}	
+	else if(direction === 'ccw'){
+		command += ' -ccw';
+	}
+	
+	if(steps){
+		command += ' -s ' + steps;
+	}
+	
+	execCommand(command);
+}
 
 var init = function(){
 	
@@ -66,6 +111,7 @@ var init = function(){
 
 module.exports = {
 	init : init,
-	config : config
+	config : config,
+	drive: drive
 }
 
