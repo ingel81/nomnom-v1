@@ -7,7 +7,9 @@ var nom = require('../../nom');
 exports.drive = function(req, res) {
   console.log('received drive Requests ' + req.body);
   
-  nom.drive(req.body.direction, req.body.steps);  
+  nom.drive(req.body.direction, req.body.steps, req.body.rpm, function(){
+	console.log('drive finished');
+	res.json([]);  
+  }); 
   
-  res.json([]);  
 };

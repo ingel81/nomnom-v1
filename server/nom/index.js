@@ -22,14 +22,20 @@ var log = function(message){
 	});
 };
 
-var execCommand = function(command){
+var execCommand = function(command, cb){
 	log('executing external process: ' + command);
+	
 	proc.exec(command,function (error, stdout, stderr) {
 		if (error !== null) {
 			log('stdout: ' + stdout);
 			log('stderr: ' + stderr);		
 			log('exec error: ' + error);
+		}		
+		
+		if(cb){			
+			cb(stdout);
 		}
+		
 	} ).unref();
 }
 
@@ -69,7 +75,7 @@ var takePicture = function(){
 	}	
 }
 
-var drive = function(direction, steps, delay, cb){
+var drive = function(direction, steps, rpm, cb){
 
 	var command = 'sudo ' + config.stepperCtrlBinary;
 	
@@ -84,7 +90,12 @@ var drive = function(direction, steps, delay, cb){
 		command += ' -s ' + steps;
 	}
 	
-	execCommand(command);
+	if(rpm){
+		command += ' -rpm ' + rpm;
+	}
+	
+	command += ' -m m';
+	execCommand(command, cb);
 }
 
 var init = function(){

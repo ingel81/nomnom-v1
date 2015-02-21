@@ -34,4 +34,5 @@ angular.module('nomnomV1App', [
 	$rootScope.app = {	
 		loading: true
 	};
+	
 });

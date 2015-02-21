@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('nomnomV1App')
-  .controller('NavbarCtrl', function ($scope, $location) {
+  .controller('NavbarCtrl', function ($scope, $location, $route, $rootScope) {
     $scope.menu = [
 	{
       'title': 'Home',
@@ -22,5 +22,10 @@ angular.module('nomnomV1App')
 
     $scope.isActive = function(route) {
       return route === $location.path();
-    };
+    };	
+	
+	$rootScope.$on( "$routeChangeStart", function(event, next, current) {
+		$scope.isCollapsed = true;
+    });
+	
   });

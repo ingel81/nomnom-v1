@@ -6,6 +6,8 @@ var request = require('supertest');
 
 describe('POST /api/motor', function() {
 
+	this.timeout(15000);
+
   it('should respond with JSON array', function(done) {
     request(app)
       .post('/api/motor/drive', {"direction" : "cw", "steps" : 128})

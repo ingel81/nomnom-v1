@@ -7,12 +7,14 @@ angular.module('nomnomV1App')
 	
 	$scope.motorControl = {
 		steps: 1,
-		direction: ''
+		direction: '',
+		rpm: 1
 	};
 	
 	$scope.doTheDrive = function(direction){		
 		$scope.motorControl.direction = direction;
-		apiService.motorDrive($scope.motorControl).then(function(){				
+		apiService.motorDrive($scope.motorControl).then(function(){
+
 		});		
 	};
 	
