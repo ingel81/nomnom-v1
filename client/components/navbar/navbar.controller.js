@@ -24,7 +24,7 @@ angular.module('nomnomV1App')
       return route === $location.path();
     };	
 	
-	$rootScope.$on( "$routeChangeStart", function(event, next, current) {
+	$rootScope.$on( '$routeChangeStart', function() {
 		$scope.isCollapsed = true;
     });
 	

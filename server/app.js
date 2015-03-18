@@ -7,6 +7,8 @@
 // Set default node environment to development
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
+global.__base = __dirname + '/';
+
 var express = require('express');
 var config = require('./config/environment');
 
@@ -23,9 +25,9 @@ server.listen(config.port, config.ip, function () {
   console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
 });
 
+// start nom 
+var loop = require(__base + 'nom/mainLoop.js');
+loop.init();
+
 // Expose app
 exports = module.exports = app;
-
-// start nom 
-var nom = require('./nom');
-nom.init();

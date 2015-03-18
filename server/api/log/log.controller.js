@@ -2,11 +2,11 @@
 
 var _ = require('lodash');
 var fs = require('fs');
-var nom = require('../../nom')
+var config = require(__base + 'nom/config');
 
 // Get logs
 exports.index = function(req, res) {
-	fs.readFile(nom.config.logFile, 'utf8', function (err,data) {
+	fs.readFile(config.logFile, 'utf8', function (err,data) {
 		if (err) {
 			console.log(err);
 			res.json({"logContent": "error"});

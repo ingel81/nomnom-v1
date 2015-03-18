@@ -41,3 +41,35 @@
 .content-wrapper {
 	padding-top: 55px;
 }
+
+
+body{
+    color: #fff;
+    background-color: transparent;
+}
+
+
+html { 
+  background: url(/assets/images/bg01.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+
+.modal-content{
+    color: #000;
+}
+
+.progress.slotStatus{
+    height: 30px;   
+}
+
+.progress.slotStatus .progress-bar{
+    line-height: 30px;   
+}
+
+.progress.slotStatus .progress-bar.progress-bar-danger > span{
+    color: black !important;    
+    padding-left: 20px;
+}

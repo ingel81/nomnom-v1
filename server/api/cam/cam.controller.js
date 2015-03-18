@@ -1,7 +1,7 @@
 'use strict';
 
 var _ = require('lodash');
-var nom = require('../../nom')
+var config = require(__base + 'nom/config')
 var http = require('http');
 
 // Get list of cams
@@ -15,7 +15,7 @@ exports.latest = function(req, res){
 	res.header('Expires', '-1');
 	res.header('Pragma', 'no-cache');
 	
-	console.log(nom.config.livePictureName);
+	console.log(config.livePictureName);
 	
-	res.sendfile(nom.config.livePictureName);
+	res.sendfile(config.livePictureName);
 };

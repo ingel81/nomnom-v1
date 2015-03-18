@@ -22,6 +22,15 @@
     background: #4393B9;
 }
 
+.hero-unit.empty {
+    position: relative;
+    padding: 30px 15px;
+    color: #F5F5F5;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #d9534f;
+}
+
 .footer {
 text-align: center;
 padding: 5px 0;

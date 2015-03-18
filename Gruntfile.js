@@ -98,7 +98,8 @@ module.exports = function (grunt) {
       },
       express: {
         files: [
-          'server/**/*.{js,json}'
+          'server/**/*.{js,json}',
+          '!server/state/**/*.*'
         ],
         tasks: ['express:dev', 'wait'],
         options: {
@@ -598,7 +599,7 @@ module.exports = function (grunt) {
     'concat',
     'ngAnnotate',
     'copy:dist',
-    'cdnify',
+    //'cdnify',
     'cssmin',
     'uglify',
     'rev',

@@ -1,7 +1,7 @@
 'use strict';
 
 var _ = require('lodash');
-var nom = require('../../nom');
+var nom = require(__base + 'nom/core');
 
 // Get list of motors
 exports.drive = function(req, res) {

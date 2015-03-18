@@ -1,13 +1,33 @@
-<br>
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-sm-12">
+		<br />
+		<progressbar max="10" class="progress slotStatus" type="{{determineType()}}" value="data.stats.slotFullCount">
+			<span style="color:white; white-space:nowrap;text-align:center; font-weight:bold;">{{data.stats.slotFullCount}} noms left</span>
+		</progressbar>
+		<br />
+	</div>		
+</div>
+
+<div class="row" ng-if="data.stats.slotFullCount > 0">
+	<div class="col-sm-12">
 		<header class="hero-unit" id="banner">		  
-			<h2>'nom nom ?'</h2>
-			<p class="lead"> :-)</p>
+			<h2>NomNom !</h2>
+			<p class="lead">Feed the beast</p>
 			<img src="assets/images/cat01.png" alt="I'm NomNom" style="max-height: 200px; max-width:200px;">
-			<p><a class="btn btn-lg btn-success" ng-href="/cam"> start <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+			<p><button class="btn btn-lg btn-success" ng-click="feed()"> Feed now <span class="glyphicon glyphicon-cutlery"></span></button></p>
 		</header>
 	</div>
 </div>
 
 
+<div class="row" ng-if="data.stats.slotFullCount === 0" >
+	<div class="col-sm-12">
+		<header class="hero-unit empty" id="banner">		  
+			<h2> Oops, nothing left :(</h2>
+			<p class="lead">Need a refill</p>
+			<img src="assets/images/cat02.png" alt="I'm NomNom" style="max-height: 200px; max-width:200px;">
+			<p><button class="btn btn-lg btn-default" ng-click="fill()">Refill <span class="glyphicon glyphicon-wrench"></span></button></p>
+
+		</header>
+	</div>
+</div>
